@@ -1,5 +1,8 @@
 package com.Interfaces;
 
-public interface Interpreter {
+import java.util.List;
 
+public interface Interpreter {
+	
+	public List<String> parseToString(Object objectsToParse);
 }
